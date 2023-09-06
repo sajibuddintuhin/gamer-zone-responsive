@@ -103,3 +103,36 @@ figure > p {
   font-weight: 900;
   margin-bottom: 0;
 }
+/* Instantly-content */
+.instantly-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.instantly {
+  width: 500px;
+  height: 600px;
+  background-image: url(/images/Rectangle55.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+.instantly-content-left {
+  text-align: right;
+  width: 400px;
+}
+.instantly-content-left > h1 {
+  margin-bottom: 0;
+  font-size: 30px;
+}
+.instantly-content-left > p {
+  font-size: 40px;
+  font-weight: 800;
+  margin: 0;
+}
+.instantly > img {
+  position: relative;
+  height: 250px;
+  top: 353px;
+  right: 103px;
+}
