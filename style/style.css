@@ -112,7 +112,7 @@ figure > p {
 .instantly {
   width: 500px;
   height: 600px;
-  background-image: url(/images/Rectangle55.png);
+  background-image: url("/images/Rectangle55.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
