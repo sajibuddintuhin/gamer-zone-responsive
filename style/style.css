@@ -136,3 +136,188 @@ figure > p {
   top: 353px;
   right: 103px;
 }
+/* player-zone */
+.player-zone-content {
+  width: 1210px;
+  margin-top: 100px;
+  margin-left: 170px;
+  display: grid;
+  grid-template-columns: repeat(5, 250px);
+}
+.player-zone {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  border-radius: 30px;
+}
+.player-zone:hover {
+  border-radius: 50px;
+  border: rgb(225, 126, 89) solid 2px;
+  color: rgb(225, 126, 89);
+}
+.player-zone > img {
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+}
+.player-zone > p {
+  font-size: 20px;
+}
+.player-zone-content-tow {
+  width: 1210px;
+  margin-left: 220px;
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.footer-content > i {
+  font-size: 50px;
+}
+.footer-content > p {
+  font-size: 50px;
+}
+.footer-content > span {
+  font-size: 50px;
+}
+.footer-tag > ul {
+  display: inline;
+}
+.footer-tag > ul {
+  display: grid;
+  grid-template-columns: repeat(6, 200px);
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.footer-tag > ul > li > a {
+  margin-right: 60px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000;
+}
+.footer-icon {
+  display: grid;
+  grid-template-columns: repeat(6, 100px);
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.footer-icon > i {
+  margin-right: 60px;
+  font-size: 50px;
+  color: #62453d;
+}
+.footer > p {
+  text-align: center;
+  margin-top: 50px;
+}
+.footer {
+  background-color: #cdc2eed2;
+  height: 410px;
+}
+@media screen and (max-width: 676px) {
+  .gamer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav > div {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  nav ul > li {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .banner {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .banner-left {
+    text-align: center;
+  }
+  .banner-img img {
+    width: 250px;
+    margin-bottom: 70px;
+  }
+  /* .players-content */
+  .players-content {
+    margin-top: 80px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .players-content > img {
+    width: 450px;
+  }
+  .players-content-right {
+    text-align: center;
+    width: 500px;
+  }
+  /* funny-video-content */
+  .funny-video-content {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+  }
+  /* Instantly-content */
+  .instantly-content {
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .instantly {
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 300px;
+    height: 300px;
+    background-image: url(/images/Rectangle55.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+  }
+  .instantly > img {
+    position: relative;
+    height: 150px;
+    top: 165px;
+    right: 61px;
+  }
+  .player-zone-content {
+    display: none;
+  }
+  .player-zone {
+    display: none;
+  }
+  .players-content-right {
+    width: 350px;
+    margin-left: 50px;
+  }
+  .footer-tag > ul {
+    grid-template-columns: repeat(3, 150px);
+    gap: 10px;
+  }
+  .footer-tag > ul > li > a {
+    font-size: 20px;
+  }
+  .footer-icon {
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+  }
+  .footer {
+    height: 500px;
+  }
+}
